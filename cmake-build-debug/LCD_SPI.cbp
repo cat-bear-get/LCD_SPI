@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="LCD_SPI"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="F:/construction_project/STM_deom/LCD_SPI/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="F:/professional_software/Mingw64/mingw64/bin/mingw32-make.exe -f &quot;F:/construction_project/STM_deom/LCD_SPI/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="F:/professional_software/Mingw64/mingw64/bin/mingw32-make.exe -f &quot;F:/construction_project/STM_deom/LCD_SPI/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/professional_software/Mingw64/mingw64/bin/mingw32-make.exe -f &quot;F:/construction_project/STM_deom/LCD_SPI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/professional_software/Mingw64/mingw64/bin/mingw32-make.exe -f &quot;F:/construction_project/STM_deom/LCD_SPI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LCD_SPI.elf">
+				<Option output="F:/construction_project/STM_deom/LCD_SPI/cmake-build-debug/LCD_SPI.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/construction_project/STM_deom/LCD_SPI/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F103xB"/>
+					<Add directory="F:/construction_project/STM_deom/LCD_SPI/Core/Inc"/>
+					<Add directory="F:/construction_project/STM_deom/LCD_SPI/Drivers/STM32F1xx_HAL_Driver/Inc"/>
+					<Add directory="F:/construction_project/STM_deom/LCD_SPI/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="F:/construction_project/STM_deom/LCD_SPI/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
+					<Add directory="F:/construction_project/STM_deom/LCD_SPI/Drivers/CMSIS/Include"/>
+					<Add directory="f:\professional_software\arm-none-eabi\9 2019-q4-major\bin\../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1"/>
+					<Add directory="f:\professional_software\arm-none-eabi\9 2019-q4-major\bin\../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1/arm-none-eabi"/>
+					<Add directory="f:\professional_software\arm-none-eabi\9 2019-q4-major\bin\../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1/backward"/>
+					<Add directory="f:\professional_software\arm-none-eabi\9 2019-q4-major\bin\../lib/gcc/arm-none-eabi/9.2.1/include"/>
+					<Add directory="f:\professional_software\arm-none-eabi\9 2019-q4-major\bin\../lib/gcc/arm-none-eabi/9.2.1/include-fixed"/>
+					<Add directory="f:\professional_software\arm-none-eabi\9 2019-q4-major\bin\../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/professional_software/Mingw64/mingw64/bin/mingw32-make.exe -f &quot;F:/construction_project/STM_deom/LCD_SPI/cmake-build-debug/Makefile&quot;  VERBOSE=1 LCD_SPI.elf"/>
+					<CompileFile command="F:/professional_software/Mingw64/mingw64/bin/mingw32-make.exe -f &quot;F:/construction_project/STM_deom/LCD_SPI/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/professional_software/Mingw64/mingw64/bin/mingw32-make.exe -f &quot;F:/construction_project/STM_deom/LCD_SPI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/professional_software/Mingw64/mingw64/bin/mingw32-make.exe -f &quot;F:/construction_project/STM_deom/LCD_SPI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LCD_SPI.elf/fast">
+				<Option output="F:/construction_project/STM_deom/LCD_SPI/cmake-build-debug/LCD_SPI.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/construction_project/STM_deom/LCD_SPI/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F103xB"/>
+					<Add directory="F:/construction_project/STM_deom/LCD_SPI/Core/Inc"/>
+					<Add directory="F:/construction_project/STM_deom/LCD_SPI/Drivers/STM32F1xx_HAL_Driver/Inc"/>
+					<Add directory="F:/construction_project/STM_deom/LCD_SPI/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="F:/construction_project/STM_deom/LCD_SPI/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
+					<Add directory="F:/construction_project/STM_deom/LCD_SPI/Drivers/CMSIS/Include"/>
+					<Add directory="f:\professional_software\arm-none-eabi\9 2019-q4-major\bin\../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1"/>
+					<Add directory="f:\professional_software\arm-none-eabi\9 2019-q4-major\bin\../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1/arm-none-eabi"/>
+					<Add directory="f:\professional_software\arm-none-eabi\9 2019-q4-major\bin\../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include/c++/9.2.1/backward"/>
+					<Add directory="f:\professional_software\arm-none-eabi\9 2019-q4-major\bin\../lib/gcc/arm-none-eabi/9.2.1/include"/>
+					<Add directory="f:\professional_software\arm-none-eabi\9 2019-q4-major\bin\../lib/gcc/arm-none-eabi/9.2.1/include-fixed"/>
+					<Add directory="f:\professional_software\arm-none-eabi\9 2019-q4-major\bin\../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/professional_software/Mingw64/mingw64/bin/mingw32-make.exe -f &quot;F:/construction_project/STM_deom/LCD_SPI/cmake-build-debug/Makefile&quot;  VERBOSE=1 LCD_SPI.elf/fast"/>
+					<CompileFile command="F:/professional_software/Mingw64/mingw64/bin/mingw32-make.exe -f &quot;F:/construction_project/STM_deom/LCD_SPI/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/professional_software/Mingw64/mingw64/bin/mingw32-make.exe -f &quot;F:/construction_project/STM_deom/LCD_SPI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/professional_software/Mingw64/mingw64/bin/mingw32-make.exe -f &quot;F:/construction_project/STM_deom/LCD_SPI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="F:/construction_project/STM_deom/LCD_SPI/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="F:/professional_software/Mingw64/mingw64/bin/mingw32-make.exe -f &quot;F:/construction_project/STM_deom/LCD_SPI/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="F:/professional_software/Mingw64/mingw64/bin/mingw32-make.exe -f &quot;F:/construction_project/STM_deom/LCD_SPI/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/professional_software/Mingw64/mingw64/bin/mingw32-make.exe -f &quot;F:/construction_project/STM_deom/LCD_SPI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/professional_software/Mingw64/mingw64/bin/mingw32-make.exe -f &quot;F:/construction_project/STM_deom/LCD_SPI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="F:/construction_project/STM_deom/LCD_SPI/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="F:/professional_software/Mingw64/mingw64/bin/mingw32-make.exe -f &quot;F:/construction_project/STM_deom/LCD_SPI/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="F:/professional_software/Mingw64/mingw64/bin/mingw32-make.exe -f &quot;F:/construction_project/STM_deom/LCD_SPI/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/professional_software/Mingw64/mingw64/bin/mingw32-make.exe -f &quot;F:/construction_project/STM_deom/LCD_SPI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/professional_software/Mingw64/mingw64/bin/mingw32-make.exe -f &quot;F:/construction_project/STM_deom/LCD_SPI/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="F:/construction_project/STM_deom/LCD_SPI/Core/Inc/Dis_Picture.h">
+			<Option target="LCD_SPI.elf"/>
+		</Unit>
+		<Unit filename="F:/construction_project/STM_deom/LCD_SPI/Core/Inc/FONT.H">
+			<Option target="LCD_SPI.elf"/>
+		</Unit>
+		<Unit filename="F:/construction_project/STM_deom/LCD_SPI/Core/Inc/Picture.h">
+			<Option target="LCD_SPI.elf"/>
+		</Unit>
+		<Unit filename="F:/construction_project/STM_deom/LCD_SPI/Core/Inc/Text.h">
+			<Option target="LCD_SPI.elf"/>
+		</Unit>
+		<Unit filename="F:/construction_project/STM_deom/LCD_SPI/Core/Inc/gpio.h">
+			<Option target="LCD_SPI.elf"/>
+		</Unit>
+		<Unit filename="F:/construction_project/STM_deom/LCD_SPI/Core/Inc/lcd.h">
+			<Option target="LCD_SPI.elf"/>
+		</Unit>
+		<Unit filename="F:/construction_project/STM_deom/LCD_SPI/Core/Inc/main.h">
+			<Option target="LCD_SPI.elf"/>
+		</Unit>
+		<Unit filename="F:/construction_project/STM_deom/LCD_SPI/Core/Inc/spi.h">
+			<Option target="LCD_SPI.elf"/>
+		</Unit>
+		<Unit filename="F:/construction_project/STM_deom/LCD_SPI/Core/Inc/stm32f1xx_hal_conf.h">
+			<Option target="LCD_SPI.elf"/>
+		</Unit>
+		<Unit filename="F:/construction_project/STM_deom/LCD_SPI/Core/Inc/stm32f1xx_it.h">
+			<Option target="LCD_SPI.elf"/>
+		</Unit>
+		<Unit filename="F:/construction_project/STM_deom/LCD_SPI/Core/Src/Dis_Picture.c">
+			<Option target="LCD_SPI.elf"/>
+		</Unit>
+		<Unit filename="F:/construction_project/STM_deom/LCD_SPI/Core/Src/FONT.c">
+			<Option target="LCD_SPI.elf"/>
+		</Unit>
+		<Unit filename="F:/construction_project/STM_deom/LCD_SPI/Core/Src/Picture.c">
+			<Option target="LCD_SPI.elf"/>
+		</Unit>
+		<Unit filename="F:/construction_project/STM_deom/LCD_SPI/Core/Src/Text.c">
+			<Option target="LCD_SPI.elf"/>
+		</Unit>
+		<Unit filename="F:/construction_project/STM_deom/LCD_SPI/Core/Src/gpio.c">
+			<Option target="LCD_SPI.elf"/>
+		</Unit>
+		<Unit filename="F:/construction_project/STM_deom/LCD_SPI/Core/Src/lcd.c">
+			<Option target="LCD_SPI.elf"/>
+		</Unit>
+		<Unit filename="F:/construction_project/STM_deom/LCD_SPI/Core/Src/main.c">
+			<Option target="LCD_SPI.elf"/>
+		</Unit>
+		<Unit filename="F:/construction_project/STM_deom/LCD_SPI/Core/Src/spi.c">
+			<Option target="LCD_SPI.elf"/>
+		</Unit>
+		<Unit filename="F:/construction_project/STM_deom/LCD_SPI/Core/Src/stm32f1xx_hal_msp.c">
+			<Option target="LCD_SPI.elf"/>
+		</Unit>
+		<Unit filename="F:/construction_project/STM_deom/LCD_SPI/Core/Src/stm32f1xx_it.c">
+			<Option target="LCD_SPI.elf"/>
+		</Unit>
+		<Unit filename="F:/construction_project/STM_deom/LCD_SPI/Core/Src/syscalls.c">
+			<Option target="LCD_SPI.elf"/>
+		</Unit>
+		<Unit filename="F:/construction_project/STM_deom/LCD_SPI/Core/Src/system_stm32f1xx.c">
+			<Option target="LCD_SPI.elf"/>
+		</Unit>
+		<Unit filename="F:/construction_project/STM_deom/LCD_SPI/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h">
+			<Option target="LCD_SPI.elf"/>
+		</Unit>
+		<Unit filename="F:/construction_project/STM_deom/LCD_SPI/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h">
+			<Option target="LCD_SPI.elf"/>
+		</Unit>
+		<Unit filename="F:/construction_project/STM_deom/LCD_SPI/Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h">
+			<Option target="LCD_SPI.elf"/>
+		</Unit>
+		<Unit filename="F:/construction_project/STM_deom/LCD_SPI/Drivers/CMSIS/Include/cmsis_armcc.h">
+			<Option target="LCD_SPI.elf"/>
+		</Unit>
+		<Unit filename="F:/construction_project/STM_deom/LCD_SPI/Drivers/CMSIS/Include/cmsis_armclang.h">
+			<Option target="LCD_SPI.elf"/>
+		</Unit>
+		<Unit filename="F:/construction_project/STM_deom/LCD_SPI/Drivers/CMSIS/Include/cmsis_compiler.h">
+			<Option target="LCD_SPI.elf"/>
+		</Unit>
+		<Unit filename="F:/construction_project/STM_deom/LCD_SPI/Drivers/CMSIS/Include/cmsis_gcc.h">
+			<Option target="LCD_SPI.elf"/>
+		</Unit>
+		<Unit filename="F:/construction_project/STM_deom/LCD_SPI/Drivers/CMSIS/Include/cmsis_iccarm.h">
+			<Option target="LCD_SPI.elf"/>
+		</Unit>
+		<Unit filename="F:/construction_project/STM_deom/LCD_SPI/Drivers/CMSIS/Include/cmsis_version.h">
+			<Option target="LCD_SPI.elf"/>
+		</Unit>
+		<Unit filename="F:/construction_project/STM_deom/LCD_SPI/Drivers/CMSIS/Include/core_armv8mbl.h">
+			<Option target="LCD_SPI.elf"/>
+		</Unit>
+		<Unit filename="F:/construction_project/STM_deom/LCD_SPI/Drivers/CMSIS/Include/core_armv8mml.h">
+			<Option target="LCD_SPI.elf"/>
+		</Unit>
+		<Unit filename="F:/construction_project/STM_deom/LCD_SPI/Drivers/CMSIS/Include/core_cm0.h">
+			<Option target="LCD_SPI.elf"/>
+		</Unit>
+		<Unit filename="F:/construction_project/STM_deom/LCD_SPI/Drivers/CMSIS/Include/core_cm0plus.h">
+			<Option target="LCD_SPI.elf"/>
+		</Unit>
+		<Unit filename="F:/construction_project/STM_deom/LCD_SPI/Drivers/CMSIS/Include/core_cm1.h">
+			<Option target="LCD_SPI.elf"/>
+		</Unit>
+		<Unit filename="F:/construction_project/STM_deom/LCD_SPI/Drivers/CMSIS/Include/core_cm23.h">
+			<Option target="LCD_SPI.elf"/>
+		</Unit>
+		<Unit filename="F:/construction_project/STM_deom/LCD_SPI/Drivers/CMSIS/Include/core_cm3.h">
+			<Option target="LCD_SPI.elf"/>
+		</Unit>
+		<Unit filename="F:/construction_project/STM_deom/LCD_SPI/Drivers/CMSIS/Include/core_cm33.h">
+			<Option target="LCD_SPI.elf"/>
+		</Unit>
+		<Unit filename="F:/construction_project/STM_deom/LCD_SPI/Drivers/CMSIS/Include/core_cm4.h">
+			<Option target="LCD_SPI.elf"/>
+		</Unit>
+		<Unit filename="F:/construction_project/STM_deom/LCD_SPI/Drivers/CMSIS/Include/core_cm7.h">
+			<Option target="LCD_SPI.elf"/>
+		</Unit>
+		<Unit filename="F:/construction_project/STM_deom/LCD_SPI/Drivers/CMSIS/Include/core_sc000.h">
+			<Option target="LCD_SPI.elf"/>
+		</Unit>
+		<Unit filename="F:/construction_project/STM_deom/LCD_SPI/Drivers/CMSIS/Include/core_sc300.h">
+			<Option target="LCD_SPI.elf"/>
+		</Unit>
+		<Unit filename="F:/construction_project/STM_deom/LCD_SPI/Drivers/CMSIS/Include/mpu_armv7.h">
+			<Option target="LCD_SPI.elf"/>
+		</Unit>
+		<Unit filename="F:/construction_project/STM_deom/LCD_SPI/Drivers/CMSIS/Include/mpu_armv8.h">
+			<Option target="LCD_SPI.elf"/>
+		</Unit>
+		<Unit filename="F:/construction_project/STM_deom/LCD_SPI/Drivers/CMSIS/Include/tz_context.h">
+			<Option target="LCD_SPI.elf"/>
+		</Unit>
+		<Unit filename="F:/construction_project/STM_deom/LCD_SPI/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+			<Option target="LCD_SPI.elf"/>
+		</Unit>
+		<Unit filename="F:/construction_project/STM_deom/LCD_SPI/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h">
+			<Option target="LCD_SPI.elf"/>
+		</Unit>
+		<Unit filename="F:/construction_project/STM_deom/LCD_SPI/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h">
+			<Option target="LCD_SPI.elf"/>
+		</Unit>
+		<Unit filename="F:/construction_project/STM_deom/LCD_SPI/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h">
+			<Option target="LCD_SPI.elf"/>
+		</Unit>
+		<Unit filename="F:/construction_project/STM_deom/LCD_SPI/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h">
+			<Option target="LCD_SPI.elf"/>
+		</Unit>
+		<Unit filename="F:/construction_project/STM_deom/LCD_SPI/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h">
+			<Option target="LCD_SPI.elf"/>
+		</Unit>
+		<Unit filename="F:/construction_project/STM_deom/LCD_SPI/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h">
+			<Option target="LCD_SPI.elf"/>
+		</Unit>
+		<Unit filename="F:/construction_project/STM_deom/LCD_SPI/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h">
+			<Option target="LCD_SPI.elf"/>
+		</Unit>
+		<Unit filename="F:/construction_project/STM_deom/LCD_SPI/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h">
+			<Option target="LCD_SPI.elf"/>
+		</Unit>
+		<Unit filename="F:/construction_project/STM_deom/LCD_SPI/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h">
+			<Option target="LCD_SPI.elf"/>
+		</Unit>
+		<Unit filename="F:/construction_project/STM_deom/LCD_SPI/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h">
+			<Option target="LCD_SPI.elf"/>
+		</Unit>
+		<Unit filename="F:/construction_project/STM_deom/LCD_SPI/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h">
+			<Option target="LCD_SPI.elf"/>
+		</Unit>
+		<Unit filename="F:/construction_project/STM_deom/LCD_SPI/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h">
+			<Option target="LCD_SPI.elf"/>
+		</Unit>
+		<Unit filename="F:/construction_project/STM_deom/LCD_SPI/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h">
+			<Option target="LCD_SPI.elf"/>
+		</Unit>
+		<Unit filename="F:/construction_project/STM_deom/LCD_SPI/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h">
+			<Option target="LCD_SPI.elf"/>
+		</Unit>
+		<Unit filename="F:/construction_project/STM_deom/LCD_SPI/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h">
+			<Option target="LCD_SPI.elf"/>
+		</Unit>
+		<Unit filename="F:/construction_project/STM_deom/LCD_SPI/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h">
+			<Option target="LCD_SPI.elf"/>
+		</Unit>
+		<Unit filename="F:/construction_project/STM_deom/LCD_SPI/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c">
+			<Option target="LCD_SPI.elf"/>
+		</Unit>
+		<Unit filename="F:/construction_project/STM_deom/LCD_SPI/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c">
+			<Option target="LCD_SPI.elf"/>
+		</Unit>
+		<Unit filename="F:/construction_project/STM_deom/LCD_SPI/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c">
+			<Option target="LCD_SPI.elf"/>
+		</Unit>
+		<Unit filename="F:/construction_project/STM_deom/LCD_SPI/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c">
+			<Option target="LCD_SPI.elf"/>
+		</Unit>
+		<Unit filename="F:/construction_project/STM_deom/LCD_SPI/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c">
+			<Option target="LCD_SPI.elf"/>
+		</Unit>
+		<Unit filename="F:/construction_project/STM_deom/LCD_SPI/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c">
+			<Option target="LCD_SPI.elf"/>
+		</Unit>
+		<Unit filename="F:/construction_project/STM_deom/LCD_SPI/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c">
+			<Option target="LCD_SPI.elf"/>
+		</Unit>
+		<Unit filename="F:/construction_project/STM_deom/LCD_SPI/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c">
+			<Option target="LCD_SPI.elf"/>
+		</Unit>
+		<Unit filename="F:/construction_project/STM_deom/LCD_SPI/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c">
+			<Option target="LCD_SPI.elf"/>
+		</Unit>
+		<Unit filename="F:/construction_project/STM_deom/LCD_SPI/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c">
+			<Option target="LCD_SPI.elf"/>
+		</Unit>
+		<Unit filename="F:/construction_project/STM_deom/LCD_SPI/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c">
+			<Option target="LCD_SPI.elf"/>
+		</Unit>
+		<Unit filename="F:/construction_project/STM_deom/LCD_SPI/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c">
+			<Option target="LCD_SPI.elf"/>
+		</Unit>
+		<Unit filename="F:/construction_project/STM_deom/LCD_SPI/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c">
+			<Option target="LCD_SPI.elf"/>
+		</Unit>
+		<Unit filename="F:/construction_project/STM_deom/LCD_SPI/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c">
+			<Option target="LCD_SPI.elf"/>
+		</Unit>
+		<Unit filename="F:/construction_project/STM_deom/LCD_SPI/STM32F103C8Tx_FLASH.ld">
+			<Option target="LCD_SPI.elf"/>
+		</Unit>
+		<Unit filename="F:/construction_project/STM_deom/LCD_SPI/startup/startup_stm32f103xb.s">
+			<Option target="LCD_SPI.elf"/>
+		</Unit>
+		<Unit filename="F:/construction_project/STM_deom/LCD_SPI/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

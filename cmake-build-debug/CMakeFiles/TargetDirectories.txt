@@ -1,0 +1,3 @@
+F:/construction_project/STM_deom/LCD_SPI/cmake-build-debug/CMakeFiles/LCD_SPI.elf.dir
+F:/construction_project/STM_deom/LCD_SPI/cmake-build-debug/CMakeFiles/edit_cache.dir
+F:/construction_project/STM_deom/LCD_SPI/cmake-build-debug/CMakeFiles/rebuild_cache.dir

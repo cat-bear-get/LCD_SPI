@@ -1,0 +1,5 @@
+"F:\professional_software\CLion 2020.3.3\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" F:\construction_project\STM_deom\LCD_SPI
+-- Minimal optimization, debug info included
+-- Configuring done
+-- Generating done
+-- Build files have been written to: F:/construction_project/STM_deom/LCD_SPI/cmake-build-debug
